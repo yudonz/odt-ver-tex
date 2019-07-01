@@ -12,3 +12,10 @@
 比如解析作者标签，法国人用的是auteur，英语用的是author，但不管是什么，这都是\\author{"+作者+"}"
 等等标签完全不一样，因为是在法国上的学，所以解析的都是法语
 
+# 代码介绍
+MainActivity.java为主程序
+UnzipFile.java 解压odt
+FileReader.java  解析content.xml文件
+FileBuilder.java   导出为tex文件
+Formule.java  解析公式
+Test_equation.java 对公式的测试文件
